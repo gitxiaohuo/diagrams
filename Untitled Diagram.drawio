@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2020-11-19T02:53:01.414Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Rp6yKOxLK8CoJVlYh8Uk" version="13.10.0" type="github"><diagram id="SNDxYb_rHsv5n3qd7yI8" name="Page-1">3ZdBk5sgGIZ/zXfsjKhROWpiup22l2Z2dnqkkVVbDBZJYvrrC4prrElqZ3bH7Z4CLzDAwwMZwVkW9XtByuwzTygD20pqcFZg27bl2epHJ6c2QchCbZKKPDFZH2zyX9SElkn3eUKrQUfJOZN5OQy3fLejWznIiBD8OOz2yNlw1pKkdBRstoSN04c8kVmbBrbf53c0T7NuZuThtqUgXWezkyojCT+eRU4MzlJwLttSUS8p0/Q6Lu249ZXWp4UJupNTBvAv6Vf7Xn74WGO+ua/vHgr+412H+UDY3uzYrFaeOgQ0UURMlQuZ8ZTvCIv7NBJ8v0uonsdStb7PJ85LFSIVfqdSnszxkr3kKspkwUxrO6ee6OrmTFTxvdjSGztyjCREpFTe6IefjkDJS3lBpTipcYIyIvPDcB3ESJQ+9es5q4JB/Q/YnQnUGVOOa7rHLJd0U5Jm20d1z4bsSFW24j/mtT4DA/NAhaT1bZzj7ZsBjme8MNfWMdXj2RUwUXZmf5c9O6/grVnqTrTUn9NSd0w9DiBcQxRBvIBgDdgrTtXP5sknkozOZEj8Lx4/h7bun9qOvUX2BXG9lxIXTbnp/5W5/kRzkT2nuv4FdReALQiWEHsQriBcNA4HEKklJXn16uR1F7PLi96avHiivO6c7uIRdUaKb4l6Xi2tbBgDDrXE2IfI0//MljE58CDGgG3A6+ah9iH0uocaQexCFEIQNYVIDX11xiNvduPtC++Gr3Fhp0G+0myvc0OzcPPQy3FT1f4TpWk7+9Jz4t8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-19T02:55:40.700Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Qrhmy07ZfHLlxP2zlwvr" version="13.10.0" type="github">
+  <diagram id="SNDxYb_rHsv5n3qd7yI8" name="Page-1">
+    <mxGraphModel dx="2062" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oRgY2UtIKx9oSUxHWmok-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oRgY2UtIKx9oSUxHWmok-3" target="oRgY2UtIKx9oSUxHWmok-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRgY2UtIKx9oSUxHWmok-3" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="360" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oRgY2UtIKx9oSUxHWmok-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oRgY2UtIKx9oSUxHWmok-4" target="oRgY2UtIKx9oSUxHWmok-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRgY2UtIKx9oSUxHWmok-4" value="读取mysql data" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oRgY2UtIKx9oSUxHWmok-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oRgY2UtIKx9oSUxHWmok-7" target="oRgY2UtIKx9oSUxHWmok-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRgY2UtIKx9oSUxHWmok-7" value="同步到redis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oRgY2UtIKx9oSUxHWmok-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oRgY2UtIKx9oSUxHWmok-9" target="oRgY2UtIKx9oSUxHWmok-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRgY2UtIKx9oSUxHWmok-9" value="lambda 定时30 分钟触发事件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oRgY2UtIKx9oSUxHWmok-12" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
