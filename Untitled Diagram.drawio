@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-19T02:58:09.081Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="D94FIqDb3W80OThy_ROV" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-19T03:03:54.831Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="i3OH5QDa38-0BST-K9nm" version="13.10.0" type="github">
   <diagram id="SNDxYb_rHsv5n3qd7yI8" name="Page-1">
     <mxGraphModel dx="2062" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="oRgY2UtIKx9oSUxHWmok-4" value="读取mysql 黑名单和key table 表数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oRgY2UtIKx9oSUxHWmok-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oRgY2UtIKx9oSUxHWmok-7" target="oRgY2UtIKx9oSUxHWmok-12" edge="1">
+        <mxCell id="94QU5vzORqpDubVl6tzZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oRgY2UtIKx9oSUxHWmok-7" target="94QU5vzORqpDubVl6tzZ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oRgY2UtIKx9oSUxHWmok-7" value="将数据整理后同步更新到redis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -29,7 +29,13 @@
           <mxGeometry x="354" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oRgY2UtIKx9oSUxHWmok-12" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="354" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="94QU5vzORqpDubVl6tzZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="94QU5vzORqpDubVl6tzZ-1" target="oRgY2UtIKx9oSUxHWmok-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="94QU5vzORqpDubVl6tzZ-1" value="更新redis数据操作时间值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="730" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
