@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-19T02:57:50.127Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="ox6R0rCvAalrHCGR0AHv" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-19T02:58:09.081Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="D94FIqDb3W80OThy_ROV" version="13.10.0" type="github">
   <diagram id="SNDxYb_rHsv5n3qd7yI8" name="Page-1">
     <mxGraphModel dx="2062" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="oRgY2UtIKx9oSUxHWmok-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oRgY2UtIKx9oSUxHWmok-7" target="oRgY2UtIKx9oSUxHWmok-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oRgY2UtIKx9oSUxHWmok-7" value="同步更新到redis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="oRgY2UtIKx9oSUxHWmok-7" value="将数据整理后同步更新到redis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oRgY2UtIKx9oSUxHWmok-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oRgY2UtIKx9oSUxHWmok-9" target="oRgY2UtIKx9oSUxHWmok-4" edge="1">
